@@ -31,9 +31,11 @@ header{}
 .discount-adv h4{
     color: #fff;
     position: relative;
+    font-size: 18px;
+    font-weight: 400;
 }
 .discount-adv h4 span{
-    font-size: 28px;
+    font-size: 30px;
 }
 .discount-adv a{
     text-decoration: none;
@@ -42,9 +44,10 @@ header{}
     color: green;
     margin: 0;
     position: absolute;
-    bottom: 17%;
+    bottom: 15%;
+    transition-duration: 0.4s;
 }
-.discount-adv a:hover{}
+.discount-adv a:hover{color: red;}
 
 
 
@@ -58,8 +61,14 @@ header{}
     color: #000000bf;
     text-transform: capitalize;
     display: block;
+    transition: 0.4s ease;
+    margin: 0 20px;
+    border-bottom: 4px solid transparent;
 }
-.nav ul li a:hover{}
+.nav ul li a:hover{
+    color: #036403;
+    border-bottom: 4px solid green;
+}
 
 
 
@@ -71,7 +80,7 @@ header{}
     font-weight: bolder;
 }
 .business p{
-    color: #555151;
+    color: #332f2f;
 }
 
 
@@ -91,6 +100,13 @@ header{}
     text-transform: capitalize;
     font-size: 16px;
     color: #000000bf;
+    transition-duration: 0.4s;
+}
+.content ul li:first-child{ font-weight: bold; }
+.content ul li a:hover{
+    border-bottom: 1px solid;
+    color: green;
+    font-weight: bolder;
 }
 
 .gallary{
@@ -101,7 +117,7 @@ header{}
     max-width: 33.33%;
     flex-basis: 33.33%;
     width: 33.33%;
-    height: 310px;
+    height: 305px;
     padding: 6px;
     }
 .img-sec a{
@@ -109,13 +125,28 @@ header{}
     color: #000000bf;
     text-transform: capitalize;
 }
+.img-sec a:hover{
+    color: green;
+}
 .img-sec a img{
-    height: 260px;
+    height: 255px;
     display: block;
     width: 100%;
     border-radius: 4px;
+    transition-duration: 0.4s;
 }
-.img-sec a img:hover{}
+.img-sec a img:hover{
+    opacity: 0.5;
+}
+.img-sec a span{
+    color: white;
+    border: 0px solid;
+    padding: 0px 2px;
+    border-radius: 5px;
+    background: #F21AA5;
+    font-size: 13px;
+    font-weight: 600;
+}
 
 footer{
     background: #f0f0f0d6;
